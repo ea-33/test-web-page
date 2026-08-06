@@ -1,23 +1,23 @@
-#menu {
-    position: static;
-    float: none;
-    margin: 0px 0px 5px 0px; 
-}
+    #menu {
+        position: static;
+        float: none;
+        margin: 0px 0px 5px 0px;
+    }
 
-#menu a {
-display: block;
-} 
+    #menu a {
+        display: block;
+    }
 
-#kopfleiste {
-    margin: 0px 0px 5px 0px;
-    /* padding: 40px 0px 5px 0px; */
-}
+    #kopfleiste {
+        margin: 0px 0px 5px 0px;
+        /* padding: 40px 0px 5px 0px; */
+    }
 
-#kopfleiste h1 {
-    font-size: 140%;
-    line-height: 40px;
-}
+    #kopfleiste h1 {
+        font-size: 140%;
+        line-height: 40px;
+    }
 
-body {
-    padding: 0px;
-}
+    body {
+        padding: 0px;
+    }

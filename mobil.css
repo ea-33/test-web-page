@@ -1,0 +1,18 @@
+#menu {
+    position: static;
+    float: none;
+    margin: 0px 0px 5px 0px; 
+}
+
+#kopfleiste {
+    margin: 0px 0 px 5px 0px;
+}
+
+#kopfleiste h1 {
+    font-size: 140%;
+    line-height: 40px;
+}
+
+body {
+    padding: 0px;
+}

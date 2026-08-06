@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/eaygun/Documents/New project"
+		},
+		{
+			"path": "C:/Users/eaygun/Documents/App2_VSCode"
+		}
+	],
+	"settings": {
+		"chat.tools.terminal.autoApprove": {
+			"npm run build": true,
+			"npm install": true,
+			"npm --prefix \"c:\\Users\\eaygun\\Documents\\App2_VSCode\"": true,
+			"Get-Process": true,
+			"/^node -e \"import\\('node:sqlite'\\)\\.then\\(\\(\\) => console\\.log\\('node:sqlite available'\\)\\)\\.catch\\(\\(error\\) => \\{ console\\.error\\(error\\.message\\); process\\.exit\\(1\\) \\}\\)\"$/": {
+				"approve": true,
+				"matchCommandLine": true
+			}
+		},
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"driver": "SQLite",
+				"name": "DBApp",
+				"database": "app.db"
+			}
+		],
+		"sqltools.useNodeRuntime": true
+	}
+}

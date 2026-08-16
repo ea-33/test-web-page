@@ -3,11 +3,12 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width"> 
+	<meta name="viewport" content="width=device-width">
 	<title>Arztpraxis Dr. Udo Bloemkamp - Unsere Praxis</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	<link rel="stylesheet" type="text/css" media="screen and (max-width: 630px), screen and (max-device-width: 630px)" href="mobil.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 630px), screen and (max-device-width: 630px)"
+		href="mobil.css">
 	<link rel="stylesheet" type="text/css" media="print" href="print.css">
 	<!--[if lt IE 9]>
     ie.css
@@ -38,7 +39,7 @@
 			<p>Sie helfen uns dabei, indem Sie einen Termin mit uns vereinbaren. Unsere
 				Sprechzeiten:</p>
 
-			<table>
+			<table id="praxis-tabelle-tage">
 				<tr>
 					<td>Montag</td>
 					<td>8:30 Uhr - 12:30 Uhr</td>
@@ -69,6 +70,14 @@
 		</div>
 
 	</div><!-- schließt #container-div -->
+	<script>
+		var aktuellesDatum = new Date();
+		var aktuellerTag = aktuellesDatum.getDay();
+		if (aktuellerTag > 0 && aktuellerTag < 6) {
+			var meineTabelle = document.getElementById("praxis-tabelle-tage");
+			meineTabelle.rows[aktuellerTag - 1].style.border = "thin solid #366BF4";
+		} 
+	</script>
 </body>
 
 </html>

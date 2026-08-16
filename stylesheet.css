@@ -41,7 +41,7 @@ a:active {
     width: inherit;
     max-width: 960px;
     margin: 0 auto 0 auto;
-    
+
 }
 
 #kopfleiste {
@@ -131,4 +131,42 @@ table {
 #inhalt p {
     font-size: 90%;
     line-height: 1.3;
+}
+
+form.kontaktformular fieldset {
+    border: 1px solid #777;
+    margin-top: 25px;
+    padding: 10 10 10px;
+    width: 500px;
+    /* border: none; */
+}
+
+form.kontaktformular legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+form.kontaktformular label {
+    float: left;
+    width: 130px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+form.kontaktformular input, textarea {
+width: 220px;
+margin-bottom: 5px;
+}
+
+form.kontaktformular textarea {
+width: 350px;
+height: 150px;
+}
+
+#submitbutton {
+margin-left: 0px;
+margin-top: 25px;
+width: 100px;
 }

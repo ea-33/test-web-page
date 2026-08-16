@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Arztpraxis Dr. Udo Bloemkamp | Kontaktformular Hausarzt München
+    </title>
+</head>
+
+<body>
+    <main>
+        <h1>Kontaktformular</h1>
+
+        <form
+            method="post"
+            enctype="text/plain"
+            action="mailto:erol_ayguen@web.de"
+        >
+            <p>
+                <label for="name">Name:</label><br>
+                <input
+                    type="text"
+                    id="name"
+                    name="Name"
+                    autocomplete="name"
+                    required
+                >
+            </p>
+
+            <p>
+                <label for="email">E-Mail:</label><br>
+                <input
+                    type="email"
+                    id="email"
+                    name="E-Mail"
+                    autocomplete="email"
+                    required
+                >
+            </p>
+
+            <p>
+                <label for="nachricht">Ihre Nachricht:</label><br>
+                <textarea
+                    id="nachricht"
+                    name="Nachricht"
+                    rows="12"
+                    cols="65"
+                    wrap="soft"
+                    required
+                ></textarea>
+            </p>
+
+            <p>
+                Bitte übermitteln Sie über dieses Formular keine medizinischen
+                oder anderen sensiblen Informationen.
+            </p>
+
+            <button type="submit">Senden</button>
+        </form>
+    </main>
+</body>
+</html>
